@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/assets/img/fundo.png);
+    background-size: cover;
+}
+
+main{
+    /* transform: rotate(180deg); */
+    /* color: #ffff00fc; */
+    transition: .5s;
+    margin: auto;
+    border: 2px solid;
+    width: 520px;
+    height: 520px;
+    margin-top: 100px;
+    background-image: url(/assets/img/boxClara2.png);
+    background-size: cover;
+}
+
+table{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 2px solid;
+    background-color: gray;
+    margin-top: 8px;
+}
+
+td{
+    border: 2.5px solid;
+}
+
+td div{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    border-radius: 80%;
+}
+
+.claras{
+    background-color: sandybrown;
+    background-image: url(/assets/img/claras.png);
+    background-size: cover;
+}
+
+.escuras{
+    background-color:  brown;
+    background-image: url(/assets/img/escuras.png);
+    background-size: cover;
+}
+
+.rainhaClara{
+    background-image: url(/assets/img/clarasRainha.png);
+    background-size: cover;
+}
+
+.rainhaEscura{
+    background-image: url(/assets/img/escurasRainha.png);
+    background-size: cover;
+}
+
+td:hover{
+    border-color: blue;
+}
+
+tr:nth-of-type(odd) td:nth-of-type(odd), tr:nth-of-type(even) td:nth-of-type(even){
+    background-color: black;
+    background-image: url(/assets/img/boxEscura2.png);
+    background-size: cover;
+}
+
+tr:nth-of-type(odd) td:nth-of-type(even), tr:nth-of-type(even) td:nth-of-type(odd){
+    background-color: white;
+    background-image: url(/assets/img/boxClara1.png);
+    background-size: cover;
+}
+
