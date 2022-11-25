@@ -12,7 +12,6 @@ body{
 
 main{
     /* transform: rotate(180deg); */
-    /* color: #ffff00fc; */
     transition: .5s;
     margin: auto;
     border: 2px solid;
