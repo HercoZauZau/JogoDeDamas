@@ -1,5 +1,7 @@
 # Jogo de Damas
 Jogo de Damas feito em HTML, CSS e JS puro.
+
+https://jogodamas.netlify.app/
 ##
 
 
